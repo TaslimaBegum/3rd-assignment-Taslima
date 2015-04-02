@@ -1,0 +1,58 @@
+/* this is stylesheet  */
+body{
+	background-color: #CCFFCC;
+	padding: 20px;
+}
+#logo{
+	width: 100%;
+	margin-bottom: 40px;
+}
+.headline{
+	font-family: arial;
+	font-size: 2em;
+	color: #FF4D4D;
+	margin-left: 90px;
+}
+.navbar{
+	position: absolute;
+	width:95%;
+	background-color: black;
+	height:50px;
+	margin-bottom: 15px; 
+}
+nav ul li{
+	display:inline-block;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	width: 22%;
+	font-size: 24px;
+	margin-bottom: 15px;
+}
+.right-column{
+	float: left;
+	width:45%;
+	height: 300px;
+	margin-top: 50px;
+	margin-left: -90px;
+}
+.left-column{
+	float: right;
+	width:45%;
+	height:300px;
+  	margin-top: 50px;
+
+}
+img{
+	float: left;
+  	margin-right: 15px;
+  	margin-bottom: 15px;
+}
+.fixed-block{
+	position:fixed;
+	left:0;
+	bottom:0;
+	width:50px;
+	height:120px;
+
+}
